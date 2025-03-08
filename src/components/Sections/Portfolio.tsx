@@ -68,7 +68,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: { title, description
         {'opacity-0 hover:opacity-80': !mobile},
         showOverlay ? 'opacity-80' : 'opacity-0',
       )}
-      href={url}
+     // href={url}
       onClick={handleItemClick}
       ref={linkRef}
       target="_blank">
