@@ -233,31 +233,31 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'WeCureIt Clinic Management Sysytem',
     description: 'Built a clinic management system with admin, doctor, and patient logins using a client-server architecture. Designed UIs in Figma, implemented with React, Node, MongoDB, and developed a scheduling algorithm.',
-    url: 'https://reactresume.com',
+    //url: 'https://reactresume.com',
     image: porfolioImage2,
   },
   {
     title: 'Hand Gesture Recognition and Voice Conversion',
     description: 'Created a model using MediaPipe for hand gesture recognition and voice conversion, bridging communication for the deaf and aphonic community. Published research in Gradiva Review Journal.',
-    url: 'https://reactresume.com',
+    //url: 'https://reactresume.com',
     image: porfolioImage4,
   },
   {
     title: 'Online Retail Data Analysis',
     description: 'Built a Python‐based ETL pipeline for online retail transactions, cleaning and transforming data. Eliminated missing/duplicate records, canceled orders, and negative entries. Engineered a TotalPrice feature to enhance revenue insights and standardized data types for advanced analytics: RFM segmentation, recommendations, forecasting, and churn prediction.',
-    url: 'https://reactresume.com',
+    //url: 'https://reactresume.com',
     image: porfolioImage7,
   },
   {
     title: 'Taxi Fare Prediction Model',
     description: 'Developed a machine learning model to predict NYC taxi fares, achieving high accuracy with XGBoost. Focused on data preprocessing, feature engineering, and model tuning.',
-    url: 'https://reactresume.com',
+    //url: 'https://reactresume.com',
     image: porfolioImage3,
   },
   {
     title: 'Kanban Task Board - Project Management Application',
     description: 'Built a project management application with Next.js (frontend) and Node.js/Express (backend), featuring role-based access for board owners and members. Deployed on AWS (EC2, Lambda, S3, and RDS), leveraging AWS Cognito for authentication. Incorporated Tailwind CSS, Material UI Data Grid, and Recharts for a responsive UI, and optimized state management with Redux Toolkit and RTK Query.',
-    url: 'https://reactresume.com',
+    //url: 'https://reactresume.com',
     image: porfolioImage8,
   },
 ];
