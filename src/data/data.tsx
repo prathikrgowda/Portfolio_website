@@ -128,7 +128,7 @@ export const skills: SkillGroup[] = [
     name: 'Database Systems',
     skills: [
       {
-        name: 'MySQl',
+        name: 'MySQL',
         level: 8,
       },
       {
