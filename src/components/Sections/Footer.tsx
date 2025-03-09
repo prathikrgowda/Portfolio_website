@@ -18,6 +18,8 @@ const Footer: FC = memo(() => (
     <div className="flex flex-col items-center gap-y-6">
       <div className="flex gap-x-4 text-neutral-500">
         <Socials />
+</div>
+
   </div>
 ));
 
