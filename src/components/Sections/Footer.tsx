@@ -1,7 +1,7 @@
-import {BoltIcon, ChevronUpIcon} from '@heroicons/react/24/solid';
-import {FC, memo} from 'react';
+import { BoltIcon, ChevronUpIcon } from '@heroicons/react/24/solid';
+import { FC, memo } from 'react';
 
-import {SectionId} from '../../data/data';
+import { SectionId } from '../../data/data';
 import Socials from '../Socials';
 
 const currentYear = new Date().getFullYear();
@@ -18,10 +18,9 @@ const Footer: FC = memo(() => (
     <div className="flex flex-col items-center gap-y-6">
       <div className="flex gap-x-4 text-neutral-500">
         <Socials />
+      </div> {/* <-- Missing closing tag added here */}
     </div>
-    </div>
-
-   </div>
+  </div>
 ));
 
 Footer.displayName = 'Footer';
