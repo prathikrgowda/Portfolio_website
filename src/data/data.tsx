@@ -241,7 +241,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Kanban Task Board - Project Management Application',
     description: 'Developed a full-stack Kanban board with Next.js (frontend) and Node.js/Express (backend), using PostgreSQL and Prisma ORM. Implemented lazy loading for inactive columns and tasks with RTK Query and conditional rendering. Deployed to AWS (S3 frontend, EC2 backend, RDS) for scalable, production-grade hosting.',
     //url: 'https://your-kanban-demo-url.com',
-    image: porfolioImage1,
+    image: porfolioImage2,
   },
   {
     title: 'WeCureIt Clinic Management Sysytem',
@@ -253,7 +253,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'MiniURL - URL Shortening Service',
     description: 'Built a URL shortening service with a Spring Boot (Java) backend and Next.js (TypeScript) frontend, backed by MySQL. Added custom alias generation, URL validation, and click analytics. Containerized with Docker, orchestrated on a basic AWS Kubernetes cluster, and provisioned EC2, RDS, and S3 via Terraform for fully automated deployment.',
     //url: 'https://your-miniurl-demo-url.com',
-    image: porfolioImage3,
+    image: porfolioImage2,
   },
   {
     title: 'Hand Gesture Recognition and Voice Conversion',
