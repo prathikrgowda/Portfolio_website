@@ -17,7 +17,6 @@ import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -274,12 +273,6 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Developed a machine learning model to predict NYC taxi fares, achieving high accuracy with XGBoost. Focused on data preprocessing, feature engineering, and model tuning.',
     //url: 'https://reactresume.com',
     image: porfolioImage6,
-  },
-  {
-    title: 'Kanban Task Board - Project Management Application',
-    description: 'Built a project management application with Next.js (frontend) and Node.js/Express (backend), featuring role-based access for board owners and members. Deployed on AWS (EC2, Lambda, S3, and RDS), leveraging AWS Cognito for authentication. Incorporated Tailwind CSS, Material UI Data Grid, and Recharts for a responsive UI, and optimized state management with Redux Toolkit and RTK Query.',
-    //url: 'https://reactresume.com',
-    image: porfolioImage7,
   },
 ];
 
