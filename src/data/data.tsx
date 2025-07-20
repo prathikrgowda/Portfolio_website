@@ -11,11 +11,13 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -241,7 +243,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Kanban Task Board - Project Management Application',
     description: 'Developed a full-stack Kanban board with Next.js (frontend) and Node.js/Express (backend), using PostgreSQL and Prisma ORM. Implemented lazy loading for inactive columns and tasks with RTK Query and conditional rendering. Deployed to AWS (S3 frontend, EC2 backend, RDS) for scalable, production-grade hosting.',
     //url: 'https://your-kanban-demo-url.com',
-    image: porfolioImage2,
+    image: porfolioImage1,
   },
   {
     title: 'WeCureIt Clinic Management Sysytem',
@@ -253,31 +255,31 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'MiniURL - URL Shortening Service',
     description: 'Built a URL shortening service with a Spring Boot (Java) backend and Next.js (TypeScript) frontend, backed by MySQL. Added custom alias generation, URL validation, and click analytics. Containerized with Docker, orchestrated on a basic AWS Kubernetes cluster, and provisioned EC2, RDS, and S3 via Terraform for fully automated deployment.',
     //url: 'https://your-miniurl-demo-url.com',
-    image: porfolioImage2,
+    image: porfolioImage3,
   },
   {
     title: 'Hand Gesture Recognition and Voice Conversion',
     description: 'Created a model using MediaPipe for hand gesture recognition and voice conversion, bridging communication for the deaf and aphonic community. Published research in Gradiva Review Journal.',
     //url: 'https://reactresume.com',
-    image: porfolioImage2,
+    image: porfolioImage4,
   },
   {
     title: 'Online Retail Data Analysis',
     description: 'Built a Python‐based ETL pipeline for online retail transactions, cleaning and transforming data. Eliminated missing/duplicate records, canceled orders, and negative entries. Engineered a TotalPrice feature to enhance revenue insights and standardized data types for advanced analytics: RFM segmentation, recommendations, forecasting, and churn prediction.',
     //url: 'https://reactresume.com',
-    image: porfolioImage2,
+    image: porfolioImage5,
   },
   {
     title: 'Taxi Fare Prediction Model',
     description: 'Developed a machine learning model to predict NYC taxi fares, achieving high accuracy with XGBoost. Focused on data preprocessing, feature engineering, and model tuning.',
     //url: 'https://reactresume.com',
-    image: porfolioImage2,
+    image: porfolioImage6,
   },
   {
     title: 'Kanban Task Board - Project Management Application',
     description: 'Built a project management application with Next.js (frontend) and Node.js/Express (backend), featuring role-based access for board owners and members. Deployed on AWS (EC2, Lambda, S3, and RDS), leveraging AWS Cognito for authentication. Incorporated Tailwind CSS, Material UI Data Grid, and Recharts for a responsive UI, and optimized state management with Redux Toolkit and RTK Query.',
     //url: 'https://reactresume.com',
-    image: porfolioImage2,
+    image: porfolioImage7,
   },
 ];
 
