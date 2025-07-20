@@ -129,7 +129,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'MySQL',
-        level: 8,
+        level: 7,
       },
       {
         name: 'MongoDB',
@@ -154,15 +154,15 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Java',
-        level: 6,
+        level: 7,
       },
       {
         name: 'JavaScript',
-        level: 8,
+        level: 7,
       },
       {
         name: 'Go',
-        level: 7,
+        level: 5,
       },
       {
         name: 'R',
@@ -170,11 +170,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'HTML',
-        level: 8,
+        level: 7,
       },
       {
         name: 'CSS',
-        level: 8,
+        level: 7,
       },
       {
         name: 'TypeScript',
@@ -191,6 +191,8 @@ export const skills: SkillGroup[] = [
       { name: 'Bitbucket', level: 8 },
       { name: 'Terraform', level: 6 },
       { name: 'Jenkins', level: 6 },
+      { name: 'Docker', level: 6 },
+      { name: 'Kubernetes', level: 5 },
       { name: 'Splunk', level: 8 },
       { name: 'New Relic', level: 8 },
       { name: 'Postman APIs', level: 9 },
@@ -199,23 +201,24 @@ export const skills: SkillGroup[] = [
   {
     name: 'Frontend Development',
     skills: [
-      { name: 'React.js', level: 8 },
-      { name: 'Next.js', level: 7 },
+      { name: 'React.js', level: 7 },
+      { name: 'Next.js', level: 6 },
       { name: 'Tailwind CSS', level: 7 },
     ],
   },
   {
     name: 'Backend Development',
     skills: [
-      { name: 'Node.js', level: 9 },
+      { name: 'Node.js', level: 8 },
       { name: 'Express.js', level: 8 },
+      { name: 'Java Spring Boot', level: 6 },
     ],
   },
   {
     name: 'Machine Learning Frameworks',
     skills: [
-      { name: 'Pandas', level: 8 },
-      { name: 'NumPy', level: 8 },
+      { name: 'Pandas', level: 7 },
+      { name: 'NumPy', level: 7 },
       { name: 'Matplotlib', level: 7 },
       { name: 'Keras', level: 7 },
       { name: 'Seaborn', level: 6 },
@@ -224,7 +227,7 @@ export const skills: SkillGroup[] = [
   {
     name: 'Cloud Platforms',
     skills: [
-      { name: 'Microsoft Azure (API Management, Redis Cache, Entra ID, Log Analytics, Automation Accounts, Application Insights)', level: 9 },
+      { name: 'Microsoft Azure (API Management, Redis Cache, Entra ID, Log Analytics, Automation Accounts, Application Insights)', level: 8 },
       { name: 'AWS (Cloud9 IDE, IAM, S3, EC2, Lambda, Cloud Watch, RDS, VPC, Cognito)', level: 7 },
     ],
   },
@@ -235,10 +238,22 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Kanban Task Board - Project Management Application',
+    description: 'Developed a full-stack Kanban board with Next.js (frontend) and Node.js/Express (backend), using PostgreSQL and Prisma ORM. Implemented lazy loading for inactive columns and tasks with RTK Query and conditional rendering. Deployed to AWS (S3 frontend, EC2 backend, RDS) for scalable, production-grade hosting.',
+    //url: 'https://your-kanban-demo-url.com',
+    image: porfolioImage1,
+  },
+  {
     title: 'WeCureIt Clinic Management Sysytem',
     description: 'Built a clinic management system with admin, doctor, and patient logins using a client-server architecture. Designed UIs in Figma, implemented with React, Node, MongoDB, and developed a scheduling algorithm.',
     //url: 'https://reactresume.com',
     image: porfolioImage2,
+  },
+  {
+    title: 'MiniURL - URL Shortening Service',
+    description: 'Built a URL shortening service with a Spring Boot (Java) backend and Next.js (TypeScript) frontend, backed by MySQL. Added custom alias generation, URL validation, and click analytics. Containerized with Docker, orchestrated on a basic AWS Kubernetes cluster, and provisioned EC2, RDS, and S3 via Terraform for fully automated deployment.',
+    //url: 'https://your-miniurl-demo-url.com',
+    image: porfolioImage3,
   },
   {
     title: 'Hand Gesture Recognition and Voice Conversion',
@@ -250,19 +265,19 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Online Retail Data Analysis',
     description: 'Built a Python‐based ETL pipeline for online retail transactions, cleaning and transforming data. Eliminated missing/duplicate records, canceled orders, and negative entries. Engineered a TotalPrice feature to enhance revenue insights and standardized data types for advanced analytics: RFM segmentation, recommendations, forecasting, and churn prediction.',
     //url: 'https://reactresume.com',
-    image: porfolioImage7,
+    image: porfolioImage5,
   },
   {
     title: 'Taxi Fare Prediction Model',
     description: 'Developed a machine learning model to predict NYC taxi fares, achieving high accuracy with XGBoost. Focused on data preprocessing, feature engineering, and model tuning.',
     //url: 'https://reactresume.com',
-    image: porfolioImage3,
+    image: porfolioImage6,
   },
   {
     title: 'Kanban Task Board - Project Management Application',
     description: 'Built a project management application with Next.js (frontend) and Node.js/Express (backend), featuring role-based access for board owners and members. Deployed on AWS (EC2, Lambda, S3, and RDS), leveraging AWS Cognito for authentication. Incorporated Tailwind CSS, Material UI Data Grid, and Recharts for a responsive UI, and optimized state management with Redux Toolkit and RTK Query.',
     //url: 'https://reactresume.com',
-    image: porfolioImage8,
+    image: porfolioImage7,
   },
 ];
 
@@ -271,7 +286,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'Expected Graduation : May 2025',
+    date: 'May 2025',
     location: 'The George Washington University',
     title: 'Masters in Computer Science',
     content: <p>Relevant Courses - Design & Analysis of Algorithms, Advanced Software Paradigms, Machine Learning, Data Mining,
@@ -305,9 +320,9 @@ export const experience: TimelineItem[] = [
     title: 'Software Engineer Intern',
     content: (
       <p>
-         Developed and enhanced user interfaces for a valet parking IoT application using React.js, improving system usability.
-         Engineered Oracle APEX databases for efficient IoT data management, integrating REST APIs with Node.js to facilitate seamless data interactions. 
-         Collaborated with UX designers to prototype dashboard features, optimizing user experience and onboarding processes.
+         Built React.js admin interface for ParkZeus, Bosch’s IoT-based smart parking solution.
+         Developed Node.js REST APIs to support ParkZeus’s Android app and web dashboard, enabling secure CRUD operations for managing parking slots and IoT devices.
+         Designed PostgreSQL schemas to store IoT and parking slot data, indexing key fields to improve dashboard performance.
       </p>
     ),
   },
